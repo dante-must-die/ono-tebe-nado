@@ -2,6 +2,7 @@ body {
     overflow-x: hidden;
 }
 .header {
+    max-height: 109px;
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
     margin: 92px 39px 92px 51px;
@@ -53,6 +54,7 @@ body {
     opacity: 0.6;
 }
 .cover {
+    min-height: 757px;
     background-image: url('../images/cover.jpg');
     background-size: cover;
     position: relative;
@@ -307,7 +309,6 @@ body {
     display: flex;
     margin-left: 40px;
     margin-right: 50px;
-    margin-top: 180px;
     margin-bottom: 226px;
     max-height: 97px;
     justify-content: space-between;
