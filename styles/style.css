@@ -157,13 +157,12 @@ body {
 .lots__card-list {
     list-style: none;
     display: flex;
+    justify-content: space-between;
 }
 .lots__card-list-item {
-    min-width: 430px;
-    min-height: 450px;
+    width: 430px;
+    max-height: 450px;
     margin-top: 27px;
-    display: flex;
-    justify-content: space-between;
     position: relative;
 }
 .card_type_film {
@@ -208,7 +207,7 @@ body {
     line-height: 120%;  
     text-decoration-line: underline;
     text-transform: uppercase;
-    margin: 50px 40px 50px 40px;
+    margin: 50px 40px 0px 40px;
 }
 .card__text {
     position: relative;
@@ -241,8 +240,8 @@ body {
     margin-top: 181px;
     margin-right: 40px;
     margin-left: 50px;
-    width: 1340px;
-    height: 100vh;
+    min-width: 1340px;
+    min-height: 487px;
     grid-template-columns: 430px 885px;
     grid-template-rows: 240px;
 }
@@ -307,6 +306,7 @@ body {
 }
 .footer {
     display: flex;
+    margin-top: 180px;
     margin-left: 40px;
     margin-right: 50px;
     margin-bottom: 226px;
