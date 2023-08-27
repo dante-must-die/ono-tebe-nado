@@ -74,16 +74,19 @@ body {
     z-index: 1;
 }
 .aligned-text {
+    height: 115px;
     margin-top: 165px;
     margin-right: 50px;
 }
 .aligned-text_center {
+    height: 100px;
     text-align: center;
     margin-right: 110px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 .aligned-text_right {
+    height: 100px;
     text-align: end;
     margin-right: 50px;
 }
