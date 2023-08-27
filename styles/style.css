@@ -54,7 +54,7 @@ body {
     opacity: 0.6;
 }
 .cover {
-    min-height: 757px;
+    max-height: 757px;
     background-image: url('../images/cover.jpg');
     background-size: cover;
     position: relative;
@@ -134,7 +134,7 @@ body {
     white-space: nowrap;
     z-index: 1;
     padding: 12px 32px;
-    margin:135px 50px 50px 78px;
+    margin: 135px 50px 50px 78px;
 }
 .lots {
     min-width: 1340px;
