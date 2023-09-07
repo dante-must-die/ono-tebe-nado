@@ -1,7 +1,7 @@
 .header {
+    margin: 92px 39px 92px 51px;
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
-    margin: 92px 39px 92px 51px;
 }
 .header__menu {
     display: flex;
@@ -148,8 +148,7 @@
 .lots__card-list {
     list-style: none;
     display: flex;
-    column-gap: 25px;
-    justify-content: space-between;
+    gap: 25px;
 }
 .lots__card-list-item {
     width: 430px;
@@ -206,7 +205,7 @@
     padding:50px 40px 50px 40px;
 }
 .lots__look-more-link {
-    margin-top:30px;
+    margin-top: 30px;
     margin-left: 40px;
     color: #000;
     font-family: Raleway, Arial, sans-serif;
