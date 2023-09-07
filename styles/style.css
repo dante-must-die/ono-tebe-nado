@@ -79,14 +79,17 @@
 }
 .aligned-text {
     text-align: left;
+    line-height: 115%;
 }
 .aligned-text_center {
     text-align: center;
     margin-right: 110px;
+    line-height: 100%;
 }
 .aligned-text_right {
     text-align: end;
     margin-right: 50px;
+    line-height: 100%
 }
 .letter-spacing-extended {
     letter-spacing: 60px;
