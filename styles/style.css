@@ -47,6 +47,8 @@
     max-width: fit-content;
     flex-direction: column;
     margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 7px;
 }
 .overlay {
     width: 100%;
