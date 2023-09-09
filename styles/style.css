@@ -2,7 +2,7 @@
     border: red 2px solid   ;    
 }*/
 .header {
-    margin: 92px 39px 92px 51px;
+    margin: 92px 49px 92px 51px;
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
 }
@@ -260,7 +260,6 @@
 }
 .about__column-text {
     margin-top: 100px;
-    margin-left: 25px;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -309,7 +308,7 @@
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
 }
 .footer__menu-list-item {
     display: flex;
