@@ -229,14 +229,14 @@
 .about {
     display: grid;
     margin-top: 181px;
-    margin-right: 40px;
+    margin-right: 50px;
     margin-left: 50px;
     grid-template-columns: 1fr 2fr;
 }
 .about__column {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 .about__logo {
     width: 240px;
@@ -286,7 +286,7 @@
 .footer {
     display: flex;
     padding-top: 180px;
-    margin-left: 40px;
+    margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 90px;
     justify-content: space-between;
