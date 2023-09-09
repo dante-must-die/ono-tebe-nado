@@ -136,7 +136,7 @@
     white-space: nowrap;
     z-index: 1;
     padding: 12px 32px;
-    margin: 135px 50px 50px 78px;
+    margin: 135px 50px 50px 0px;
 }
 .lots {
     margin-right: 40px;
@@ -266,7 +266,7 @@
     gap: 25px;
 }
 .about__title {
-    margin-bottom: 100px;
+    margin-bottom: 75px;
     color: #000;
     font-family: Raleway, Arial, sans-serif;
     font-size: 40px;
